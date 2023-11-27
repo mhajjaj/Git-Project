@@ -14,6 +14,7 @@
 		6340D3ED2B1442F500FC48AA /* Git_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340D3EC2B1442F500FC48AA /* Git_ProjectTests.swift */; };
 		6340D3F72B1442F500FC48AA /* Git_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340D3F62B1442F500FC48AA /* Git_ProjectUITests.swift */; };
 		6340D3F92B1442F500FC48AA /* Git_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340D3F82B1442F500FC48AA /* Git_ProjectUITestsLaunchTests.swift */; };
+		6340D40A2B1445F100FC48AA /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340D4092B1445F100FC48AA /* ModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6340D3F22B1442F500FC48AA /* Git ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6340D3F62B1442F500FC48AA /* Git_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_ProjectUITests.swift; sourceTree = "<group>"; };
 		6340D3F82B1442F500FC48AA /* Git_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Git_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6340D4092B1445F100FC48AA /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		6340D3DA2B1442F200FC48AA /* Git Project */ = {
 			isa = PBXGroup;
 			children = (
+				6340D4092B1445F100FC48AA /* ModelView.swift */,
 				6340D3DB2B1442F200FC48AA /* Git_ProjectApp.swift */,
 				6340D3DD2B1442F200FC48AA /* ContentView.swift */,
 				6340D3DF2B1442F400FC48AA /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6340D40A2B1445F100FC48AA /* ModelView.swift in Sources */,
 				6340D3DE2B1442F200FC48AA /* ContentView.swift in Sources */,
 				6340D3DC2B1442F200FC48AA /* Git_ProjectApp.swift in Sources */,
 			);

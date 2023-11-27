@@ -13,7 +13,8 @@ struct ContentView: View {
         NavigationView {
             Button("Show Model") {
                 self.isPresented = true
-            }.sheet(isPresented: $isPresented) {
+            }.foregroundColor(.red)
+            .sheet(isPresented: $isPresented) {
                 Text("This is the model screen")
             }
         }
