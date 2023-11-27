@@ -8,15 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var isPresented = false
     var body: some View {
         NavigationView {
-            Button("Show Model") {
-                self.isPresented = true
-            }.foregroundColor(.red)
-            .sheet(isPresented: $isPresented) {
-                Text("This is the model screen")
+            NavigationLink(destination: ModelView()) {
+                Text("Go Next")
             }
+            .navigationBarTitle("Xcode and Git")
         }
     }
 }
